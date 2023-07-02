@@ -41,7 +41,7 @@ driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8000));
 	        // getting fifth element from search
 	WebElement fifthElement=driver.findElement(By.xpath("(//div[@data-index='7']//a)[1]"));
 	fifthElement.click();
-	//closing browser
+	
 	
 	
 	
